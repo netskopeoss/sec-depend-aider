@@ -93,9 +93,8 @@ def fetch_custom_config(organization_name,repo_name):
 	print ("Fetching the configuration file")
 
 	custom_config_repo = GIT.get_repo(organization_name + "/" + repo_name)
-	# config_path = "/custom-config.json"
-	config_path = "/coverity/pipeline/coverity-common-config.json"
-
+	config_path = "/custom-config.json"
+	
 	config_download_url = custom_config_repo.get_contents(urllib.parse.quote(config_path)).download_url
 
 	with urllib.request.urlopen(config_download_url) as url_content:
