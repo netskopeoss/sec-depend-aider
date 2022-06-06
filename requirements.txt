@@ -1,0 +1,5 @@
+PyGithub
+jira
+tabulate
+requests
+argparse

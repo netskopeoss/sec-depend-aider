@@ -1,0 +1,18 @@
+{
+    "config": [
+        {
+            "repo": "repo_1",
+            "owner_name": "",
+            "owner_email": "",
+            "jira_project": "",
+            "jira_component": "",
+        },
+        {
+            "repo": "repo_2",
+            "owner_name": "",
+            "owner_email": "",
+            "jira_project": "",
+            "jira_component": "",
+        }    
+    ]
+}
