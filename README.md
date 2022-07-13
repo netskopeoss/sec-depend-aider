@@ -1,6 +1,6 @@
 # sec-depend-aider: Dependabot Pull Request Monitoring Automation 
 
-<img width="1295" alt="sec-depend-aider-architecture" src="https://user-images.githubusercontent.com/88770278/172140172-1c5bcb68-02c3-47c0-a2ea-87ea3e985361.png">
+<img width="1295" alt="sec-depend-aider-architecture" src="https://user-images.githubusercontent.com/88770278/178749028-30354162-439b-4c49-8b7c-14829302d8b3.png">
 
 [Overview](#overview) \| [Quickstart](#quickstart) \| [Future Work](#future-work)
 
@@ -41,7 +41,8 @@ optional arguments:
   - JIRA_API_TOKEN
 
 ## Future Work
-TBU
-
-
-
+- [ ] Integrate the automation with GitHub Action to:
+ - Run from a centralized repository across the organization in a scheduled manner
+ - Run from each repository with events like pull request creation or push to a branch
+- [ ] We started the automation with defining sink as Jira, but it can be easily reused for any technology, for example feeding the data into a SIEM for analytics
+- [ ] Already in process for expanding the search query used in the automation to gather more datasets like GitHub Code and Secret Scanning Alerts
