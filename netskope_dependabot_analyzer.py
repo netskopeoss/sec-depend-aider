@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-Copyright (c) 2022, Netskope OSS
+Copyright (c) 2022, Netskope, Inc.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
