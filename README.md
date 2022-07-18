@@ -2,11 +2,15 @@
 
 <img width="1295" alt="sec-depend-aider-architecture" src="https://user-images.githubusercontent.com/88770278/178749028-30354162-439b-4c49-8b7c-14829302d8b3.png">
 
-[Overview](#overview) \| [Quickstart](#quickstart) \| [Future Work](#future-work)
+[Problem Statement](#problem-statement) \| [Overview](#solution-overview) \| [Quickstart](#quickstart) \| [Future Work](#future-work)
 
-## Overview
+## Problem Statement
 
-Netskope utilizes Github Dependabot as one of the solutions to address the problem and in short, if Dependabot finds a vulnerability in a package your code depends on then it sends you an alert. If it can suggest a fix, it also sends a pull request to update your dependency manifest with the closest non-vulnerable version.
+Today, open source software provides the foundation for the vast majority of applications across all industries, and software development has slowly moved towards software assembling. Because of this change in the way we deliver the software, new attack surfaces have evolved and software security is facing new challenges, such as [Log4j](https://logging.apache.org/log4j/2.x/), [the SolarWinds Supply Chain Attack](https://www.sans.org/blog/what-you-need-to-know-about-the-solarwinds-supply-chain-attack/), and [others](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610).
+
+## Solution Overview
+
+Netskope utilizes Github Dependabot as one of the solutions to address the problem. Dependabot keeps your dependencies up to date by informing you of any security vulnerabilities in your dependencies, and automatically opens pull requests to upgrade your dependencies to the next available secure version when a Dependabot alert is triggered, or to the latest version when a release is published. 
 
 Naturally, Dependabot aligns with the Netskope principle of embedding security in developer workflow and is part of developer experience.
 
